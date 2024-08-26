@@ -12,9 +12,9 @@ makepkg
 sudo pacman -U yay-12.3.5-1-x86_64.pkg.tar.zst
 cd 
 yes | yay --noconfirm tofi swayfx xbps
-git clone --depth=1 https://github.com/MubinMuhammad/MinimalSwayFX
-cd ./MinimalSwayFX/
-make && ./installer
+
+
+
 cd
 rm -rf ./.config/  
 mkdir ./.config/
